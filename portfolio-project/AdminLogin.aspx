@@ -4,29 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Login</title>
-    <link href="AdminStyles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="AdminLoginStyles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
         <script type="text/javascript">
-            function navigateToPage() {
-                // Gösterilecek yükleme ekranının URL'si
-                var loadingScreenUrl = 'LoadingScreen.aspx';
-
-                // Hedef sayfanın URL'si
-                var targetUrl = 'TargetPage.aspx';
-
-                // Yükleme ekranına yönlendir
-                window.location.href = loadingScreenUrl;
-
-                // Belirli bir süre sonra hedef sayfaya yönlendir (örneğin 2 saniye)
-                setTimeout(function () {
-                    window.location.href = targetUrl;
-                }, 2000); // 2000 milisaniye (2 saniye)
-            }
+            
     </script>
 </head>
 <body>
@@ -69,13 +55,6 @@
         
     </form>
  
-        <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var form = document.getElementById("form1");
-            form.onsubmit = function () {
-                document.getElementById("loading").style.display = "flex";
-            };
-        });
-    </script>
+
 </body>
 </html>

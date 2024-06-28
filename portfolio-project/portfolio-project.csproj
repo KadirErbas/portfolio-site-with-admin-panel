@@ -169,15 +169,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="admin.css" />
-    <Content Include="AdminBeceriEkle.aspx" />
-    <Content Include="AdminBeceriGuncelle.aspx" />
-    <Content Include="AdminBeceriler.aspx" />
-    <Content Include="AdminBeceriSil.aspx" />
-    <Content Include="AdminDeneyimEkle.aspx" />
-    <Content Include="AdminDeneyimGuncelle.aspx" />
-    <Content Include="AdminDeneyimler.aspx" />
-    <Content Include="AdminDeneyimSil.aspx" />
+    <Content Include="AdminPaneli\admin.css" />
+    <Content Include="AdminPaneli\AdminBeceriEkle.aspx" />
+    <Content Include="AdminPaneli\AdminBeceriGuncelle.aspx" />
+    <Content Include="AdminPaneli\AdminBeceriler.aspx" />
+    <Content Include="AdminPaneli\AdminBeceriSil.aspx" />
+    <Content Include="AdminPaneli\AdminDeneyimEkle.aspx" />
+    <Content Include="AdminPaneli\AdminDeneyimGuncelle.aspx" />
+    <Content Include="AdminPaneli\AdminDeneyimler.aspx" />
+    <Content Include="AdminPaneli\AdminDeneyimSil.aspx" />
     <Content Include="AdminDosyalar\bootstrap-3.3.7\.gitattributes" />
     <Content Include="AdminDosyalar\bootstrap-3.3.7\.gitignore" />
     <Content Include="AdminDosyalar\bootstrap-3.3.7\dist\css\bootstrap-theme.css" />
@@ -445,189 +445,181 @@
     <Content Include="AdminDosyalar\sidebar\style4.css" />
     <Content Include="AdminDosyalar\sidebar\style5.css" />
     <Content Include="AdminDosyalar\StyleSheet2.css" />
-    <Content Include="AdminEgitimEkle.aspx" />
-    <Content Include="AdminEgitimGuncelle.aspx" />
-    <Content Include="AdminEgitimler.aspx" />
-    <Content Include="AdminEgitimSil.aspx" />
-    <Content Include="AdminHobiEkle.aspx" />
-    <Content Include="AdminHobiGuncelle.aspx" />
-    <Content Include="AdminHobiler.aspx" />
-    <Content Include="AdminHobiSil.aspx" />
-    <Content Include="AdminIletisim.aspx" />
-    <Content Include="AdminKazanimEkle.aspx" />
-    <Content Include="AdminKazanimGuncelle.aspx" />
-    <Content Include="AdminKazanimlar.aspx" />
-    <Content Include="AdminKazanimSil.aspx" />
+    <Content Include="AdminPaneli\AdminEgitimEkle.aspx" />
+    <Content Include="AdminPaneli\AdminEgitimGuncelle.aspx" />
+    <Content Include="AdminPaneli\AdminEgitimler.aspx" />
+    <Content Include="AdminPaneli\AdminEgitimSil.aspx" />
+    <Content Include="AdminPaneli\AdminHobiEkle.aspx" />
+    <Content Include="AdminPaneli\AdminHobiGuncelle.aspx" />
+    <Content Include="AdminPaneli\AdminHobiler.aspx" />
+    <Content Include="AdminPaneli\AdminHobiSil.aspx" />
+    <Content Include="AdminPaneli\AdminIletisim.aspx" />
+    <Content Include="AdminPaneli\AdminKazanimEkle.aspx" />
+    <Content Include="AdminPaneli\AdminKazanimGuncelle.aspx" />
+    <Content Include="AdminPaneli\AdminKazanimlar.aspx" />
     <Content Include="AdminLogin.aspx" />
-    <Content Include="AdminReferansEkle.aspx" />
-    <Content Include="AdminReferansGuncelle.aspx" />
-    <Content Include="AdminReferanslar.aspx" />
-    <Content Include="AdminStyles.css" />
+    <Content Include="AdminPaneli\AdminReferansEkle.aspx" />
+    <Content Include="AdminPaneli\AdminReferansGuncelle.aspx" />
+    <Content Include="AdminPaneli\AdminReferanslar.aspx" />
+    <Content Include="AdminLoginStyles.css" />
     <Content Include="Dosyalar\assets\img\favicon.ico" />
     <Content Include="Dosyalar\assets\img\loading.gif" />
     <Content Include="Dosyalar\assets\img\profile.jpg" />
     <Content Include="Dosyalar\css\styles.css" />
     <Content Include="Dosyalar\index.html" />
     <Content Include="Dosyalar\js\scripts.js" />
-    <Content Include="Hakkimda.aspx" />
+    <Content Include="AdminPaneli\Hakkimda.aspx" />
     <Content Include="LoadingScreen.aspx" />
     <Content Include="Web.config" />
     <Content Include="default.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin.Master.cs">
+    <Compile Include="AdminPaneli\Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admin.Master.designer.cs">
+    <Compile Include="AdminPaneli\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
-    <Compile Include="AdminBeceriEkle.aspx.cs">
+    <Compile Include="AdminPaneli\AdminBeceriEkle.aspx.cs">
       <DependentUpon>AdminBeceriEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminBeceriEkle.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminBeceriEkle.aspx.designer.cs">
       <DependentUpon>AdminBeceriEkle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminBeceriGuncelle.aspx.cs">
+    <Compile Include="AdminPaneli\AdminBeceriGuncelle.aspx.cs">
       <DependentUpon>AdminBeceriGuncelle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminBeceriGuncelle.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminBeceriGuncelle.aspx.designer.cs">
       <DependentUpon>AdminBeceriGuncelle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminBeceriler.aspx.cs">
+    <Compile Include="AdminPaneli\AdminBeceriler.aspx.cs">
       <DependentUpon>AdminBeceriler.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminBeceriler.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminBeceriler.aspx.designer.cs">
       <DependentUpon>AdminBeceriler.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminBeceriSil.aspx.cs">
+    <Compile Include="AdminPaneli\AdminBeceriSil.aspx.cs">
       <DependentUpon>AdminBeceriSil.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminBeceriSil.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminBeceriSil.aspx.designer.cs">
       <DependentUpon>AdminBeceriSil.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminDeneyimEkle.aspx.cs">
+    <Compile Include="AdminPaneli\AdminDeneyimEkle.aspx.cs">
       <DependentUpon>AdminDeneyimEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminDeneyimEkle.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminDeneyimEkle.aspx.designer.cs">
       <DependentUpon>AdminDeneyimEkle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminDeneyimGuncelle.aspx.cs">
+    <Compile Include="AdminPaneli\AdminDeneyimGuncelle.aspx.cs">
       <DependentUpon>AdminDeneyimGuncelle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminDeneyimGuncelle.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminDeneyimGuncelle.aspx.designer.cs">
       <DependentUpon>AdminDeneyimGuncelle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminDeneyimler.aspx.cs">
+    <Compile Include="AdminPaneli\AdminDeneyimler.aspx.cs">
       <DependentUpon>AdminDeneyimler.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminDeneyimler.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminDeneyimler.aspx.designer.cs">
       <DependentUpon>AdminDeneyimler.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminDeneyimSil.aspx.cs">
+    <Compile Include="AdminPaneli\AdminDeneyimSil.aspx.cs">
       <DependentUpon>AdminDeneyimSil.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminDeneyimSil.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminDeneyimSil.aspx.designer.cs">
       <DependentUpon>AdminDeneyimSil.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminEgitimEkle.aspx.cs">
+    <Compile Include="AdminPaneli\AdminEgitimEkle.aspx.cs">
       <DependentUpon>AdminEgitimEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminEgitimEkle.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminEgitimEkle.aspx.designer.cs">
       <DependentUpon>AdminEgitimEkle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminEgitimGuncelle.aspx.cs">
+    <Compile Include="AdminPaneli\AdminEgitimGuncelle.aspx.cs">
       <DependentUpon>AdminEgitimGuncelle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminEgitimGuncelle.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminEgitimGuncelle.aspx.designer.cs">
       <DependentUpon>AdminEgitimGuncelle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminEgitimler.aspx.cs">
+    <Compile Include="AdminPaneli\AdminEgitimler.aspx.cs">
       <DependentUpon>AdminEgitimler.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminEgitimler.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminEgitimler.aspx.designer.cs">
       <DependentUpon>AdminEgitimler.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminEgitimSil.aspx.cs">
+    <Compile Include="AdminPaneli\AdminEgitimSil.aspx.cs">
       <DependentUpon>AdminEgitimSil.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminEgitimSil.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminEgitimSil.aspx.designer.cs">
       <DependentUpon>AdminEgitimSil.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminHobiEkle.aspx.cs">
+    <Compile Include="AdminPaneli\AdminHobiEkle.aspx.cs">
       <DependentUpon>AdminHobiEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminHobiEkle.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminHobiEkle.aspx.designer.cs">
       <DependentUpon>AdminHobiEkle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminHobiGuncelle.aspx.cs">
+    <Compile Include="AdminPaneli\AdminHobiGuncelle.aspx.cs">
       <DependentUpon>AdminHobiGuncelle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminHobiGuncelle.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminHobiGuncelle.aspx.designer.cs">
       <DependentUpon>AdminHobiGuncelle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminHobiler.aspx.cs">
+    <Compile Include="AdminPaneli\AdminHobiler.aspx.cs">
       <DependentUpon>AdminHobiler.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminHobiler.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminHobiler.aspx.designer.cs">
       <DependentUpon>AdminHobiler.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminHobiSil.aspx.cs">
+    <Compile Include="AdminPaneli\AdminHobiSil.aspx.cs">
       <DependentUpon>AdminHobiSil.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminHobiSil.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminHobiSil.aspx.designer.cs">
       <DependentUpon>AdminHobiSil.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminIletisim.aspx.cs">
+    <Compile Include="AdminPaneli\AdminIletisim.aspx.cs">
       <DependentUpon>AdminIletisim.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminIletisim.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminIletisim.aspx.designer.cs">
       <DependentUpon>AdminIletisim.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminKazanimEkle.aspx.cs">
+    <Compile Include="AdminPaneli\AdminKazanimEkle.aspx.cs">
       <DependentUpon>AdminKazanimEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminKazanimEkle.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminKazanimEkle.aspx.designer.cs">
       <DependentUpon>AdminKazanimEkle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminKazanimGuncelle.aspx.cs">
+    <Compile Include="AdminPaneli\AdminKazanimGuncelle.aspx.cs">
       <DependentUpon>AdminKazanimGuncelle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminKazanimGuncelle.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminKazanimGuncelle.aspx.designer.cs">
       <DependentUpon>AdminKazanimGuncelle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminKazanimlar.aspx.cs">
+    <Compile Include="AdminPaneli\AdminKazanimlar.aspx.cs">
       <DependentUpon>AdminKazanimlar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminKazanimlar.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminKazanimlar.aspx.designer.cs">
       <DependentUpon>AdminKazanimlar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AdminKazanimSil.aspx.cs">
-      <DependentUpon>AdminKazanimSil.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminKazanimSil.aspx.designer.cs">
-      <DependentUpon>AdminKazanimSil.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminLogin.aspx.cs">
       <DependentUpon>AdminLogin.aspx</DependentUpon>
@@ -636,25 +628,25 @@
     <Compile Include="AdminLogin.aspx.designer.cs">
       <DependentUpon>AdminLogin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminReferansEkle.aspx.cs">
+    <Compile Include="AdminPaneli\AdminReferansEkle.aspx.cs">
       <DependentUpon>AdminReferansEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminReferansEkle.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminReferansEkle.aspx.designer.cs">
       <DependentUpon>AdminReferansEkle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminReferansGuncelle.aspx.cs">
+    <Compile Include="AdminPaneli\AdminReferansGuncelle.aspx.cs">
       <DependentUpon>AdminReferansGuncelle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminReferansGuncelle.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminReferansGuncelle.aspx.designer.cs">
       <DependentUpon>AdminReferansGuncelle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminReferanslar.aspx.cs">
+    <Compile Include="AdminPaneli\AdminReferanslar.aspx.cs">
       <DependentUpon>AdminReferanslar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminReferanslar.aspx.designer.cs">
+    <Compile Include="AdminPaneli\AdminReferanslar.aspx.designer.cs">
       <DependentUpon>AdminReferanslar.aspx</DependentUpon>
     </Compile>
     <Compile Include="DataSet1.Designer.cs">
@@ -662,11 +654,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Hakkimda.aspx.cs">
+    <Compile Include="AdminPaneli\Hakkimda.aspx.cs">
       <DependentUpon>Hakkimda.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Hakkimda.aspx.designer.cs">
+    <Compile Include="AdminPaneli\Hakkimda.aspx.designer.cs">
       <DependentUpon>Hakkimda.aspx</DependentUpon>
     </Compile>
     <Compile Include="LoadingScreen.aspx.cs">
@@ -689,7 +681,7 @@
     <Content Include="DataSet1.xsc">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Content>
-    <Content Include="Admin.Master" />
+    <Content Include="AdminPaneli\Admin.Master" />
     <Content Include="AdminDosyalar\bootstrap-3.3.7\.editorconfig" />
     <Content Include="AdminDosyalar\bootstrap-3.3.7\.hound.yml" />
     <Content Include="AdminDosyalar\bootstrap-3.3.7\.travis.yml" />

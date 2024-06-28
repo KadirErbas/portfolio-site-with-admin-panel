@@ -101,7 +101,7 @@ namespace portfolio_project
 
                     // Başarılı giriş, yönlendirme
                     // Response.Redirect("Hakkimda.aspx");
-                    string targetPage = "Hakkimda.aspx";
+                    string targetPage = "AdminPaneli/Hakkimda.aspx";
 
                     // QueryString parametrelerini kullanarak verileri gönder
                     Response.Redirect($"LoadingScreen.aspx?targetPage={targetPage}");
