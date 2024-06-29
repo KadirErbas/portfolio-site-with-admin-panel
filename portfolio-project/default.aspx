@@ -90,10 +90,11 @@
         <hr class="m-0" />
         <!-- Deneyim-->
         <section class="resume-section" id="experience">
-            <asp:Repeater ID="Repeater2" runat="server">
-                <ItemTemplate>
+           
                     <div class="resume-section-content">
                         <h2 class="mb-5">DENEYİM</h2>
+                         <asp:Repeater ID="Repeater2" runat="server">
+                            <ItemTemplate>
                         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                             <div class="flex-grow-1">
                                 <h3 class="mb-0">
@@ -114,10 +115,10 @@
                                 </span>
                             </div>
                         </div>
-
+                         </ItemTemplate>
+                        </asp:Repeater>
                     </div>
-                </ItemTemplate>
-            </asp:Repeater>
+
         </section>
         <hr class="m-0" />
         <!-- Eğitim-->

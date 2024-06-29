@@ -40,14 +40,6 @@
 
             <asp:Label ID="lastLogin" runat="server" Text="Label">Son Giriş: </asp:Label>
             <br />
-            <!-- 
-            <asp:Label ID="LblIP" runat="server" Text=""></asp:Label><br />
-            <asp:Label ID="LblDNS" runat="server" Text=""></asp:Label><br />
-            <asp:Label ID="LblBrowser" runat="server" Text=""></asp:Label><br />
-            <asp:Label ID="LblOS" runat="server" Text=""></asp:Label><br />
-            <asp:Label ID="LblReferrer" runat="server" Text=""></asp:Label><br />
-            <asp:Label ID="LblUserAgent" runat="server" Text=""></asp:Label><br />
-            -->
 
 
 

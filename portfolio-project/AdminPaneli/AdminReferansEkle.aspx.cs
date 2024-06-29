@@ -20,7 +20,7 @@ namespace portfolio_project
             dt.ReferansEkle(TxtAdı.Text, TxtSoyadı.Text, TxtMaili.Text, TxtKurumu.Text, TxtUnvani.Text);
             // Response.Redirect("AdminReferanslar.Aspx");
 
-            string targetPage = "AdminReferanslar.aspx";
+            string targetPage = "AdminPaneli/AdminReferanslar.aspx";
 
             // QueryString parametrelerini kullanarak verileri gönder
             Response.Redirect($"../LoadingScreen.aspx?targetPage={targetPage}");

@@ -14,35 +14,7 @@ namespace portfolio_project
         {
             if (!IsPostBack)
             {
-                // İstemcinin IP adresini al ve Label'a ata
-                string ip = Request.ServerVariables["HTTP_X_FORWARDED_FOR"];
-                if (string.IsNullOrEmpty(ip))
-                {
-                    ip = Request.ServerVariables["REMOTE_ADDR"];
-                }
-                /*
-                LblIP.Text = "IP Adresiniz: " + ip;
-
-                // İstemcinin DNS bilgisini al ve Label'a ata
-                string dns = Request.ServerVariables["REMOTE_HOST"];
-                LblDNS.Text = "DNS Bilgisi: " + dns;
-
-                // İstemcinin tarayıcı bilgilerini al ve Label'a ata
-                string browser = Request.Browser.Browser + " " + Request.Browser.Version;
-                LblBrowser.Text = "Tarayıcı: " + browser;
-
-                // İstemcinin işletim sistemi bilgisini al ve Label'a ata
-                string os = Request.Browser.Platform;
-                LblOS.Text = "İşletim Sistemi: " + os;
-
-                // İstemcinin yönlendiren URL'sini al ve Label'a ata
-                string referrer = Request.UrlReferrer != null ? Request.UrlReferrer.ToString() : "Doğrudan erişim";
-                LblReferrer.Text = "Yönlendiren: " + referrer;
-
-                // İstemcinin User-Agent bilgisini al ve Label'a ata
-                string userAgent = Request.UserAgent;
-                LblUserAgent.Text = "User-Agent: " + userAgent;
-                */
+                
                 // Cookie mevcutsa değerlerini oku ve giriş bilgilerini doldur
                 if (Request.Cookies["KullaniciBilgi"] != null)
                 {
